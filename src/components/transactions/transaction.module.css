@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.headline {
+  color: rgb(83, 245, 105);
+}
+.transaction_history {
+  width: 500px;
+  border: 3px solid;
+  text-align: center;
+  margin: auto;
+  box-shadow: 0 0 20px;
+}
+
+th {
+  border: 1px solid;
+  background-color: rgb(50, 205, 184);
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 15px 0;
+}
+
+td {
+  border: 2px solid;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 10px 0 10px 0;
+}
