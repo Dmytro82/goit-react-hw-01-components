@@ -6,7 +6,7 @@ const Statistics = ({ title, stats }) => {
     <section className={styles.statistics}>
       <h2 className={styles.headline}>Exercise №2 statistics</h2>
 
-      {title ? <h2 className={styles.title}>{title}</h2> : null}
+      {title && <h2 className={styles.title}>{title}</h2>}
 
       <ul className={styles.statistics_list}>
         {stats.map(stat => (
